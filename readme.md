@@ -1,7 +1,7 @@
-Todo API using Gin Framework
+#Todo API using Gin Framework
 This is a simple Todo API built using the Gin web framework in Golang. The API allows you to retrieve all Todos or a specific Todo by ID.
 
-Installation
+#Installation
 
 Clone this repository.
 Install Golang and Gin Framework.
@@ -13,15 +13,14 @@ Usage
 GET /todos
 Returns a list of all Todos.
 
-Request
+#Request
 
 http
 Copy code
 GET /todos
 Response
 
-json
-Copy code
+#json
 [
   {
     "id": "1",
@@ -39,7 +38,7 @@ Copy code
 GET /todos/:id
 Returns a specific Todo by its ID.
 
-Request
+#Request
 
 http
 Copy code
@@ -49,10 +48,10 @@ If the Todo with the provided ID is found:
 
 json
 Copy code
-{
+'{
   "id": "1",
   "title": "Todo 1"
-}
+}'
 If the Todo with the provided ID is not found:
 
 http
