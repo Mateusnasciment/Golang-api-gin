@@ -66,3 +66,68 @@ Push your changes to your forked repository.
 Submit a pull request.
 License
 This project is licensed under the MIT License.
+
+
+.
+├── cmd
+│   └── main.go
+├── config
+│   └── config.go
+├── docs
+│   └── Oauth-JWT-API.drawio
+├── example.go
+├── go.mod
+├── go.sum
+├── internal
+│   ├── domain
+│   │   ├── entity
+│   │   │   ├── api_test.go
+│   │   │   ├── application.go
+│   │   │   ├── client.go
+│   │   │   ├── entity.go
+│   │   │   ├── permissions.go
+│   │   │   ├── team.go
+│   │   │   └── user.go
+│   │   └── repository.go
+│   ├── http
+│   │   ├── grpc
+│   │   │   ├── handler
+│   │   │   │   └── api_server.go
+│   │   │   └── server.go
+│   │   └── rest
+│   │       ├── api.go
+│   │       ├── dto
+│   │       ├── handler.go
+│   │       │   ├── api_server.go
+│   │       │   └── teams.go
+│   │       └── router
+│   │           ├── api_server.go
+│   │           ├── router.go
+│   │           └── team.go
+│   ├── query
+│   │   ├── db.go
+│   │   ├── models.go
+│   │   └── query.sql.go
+│   ├── repository
+│   │   ├── application.go
+│   │   ├── team.go
+│   │   └── user.go
+│   └── usecase
+│       ├── application.go
+│       ├── team.go
+│       ├── types.go
+│       └── user.go
+├── LICENSE
+├── Makefile
+├── pkg
+│   └── grpc
+│       └── pb
+│           ├── api_server_grpc.pb.go
+│           └── api_server.pb.go
+├── proto
+│   └── api_server.proto
+├── README.md
+├── sql
+│   ├── query.sql
+│   └── schema.sql
+└── sqlc.yaml
