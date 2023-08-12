@@ -66,9 +66,7 @@ Push your changes to your forked repository.
 Submit a pull request.
 License
 This project is licensed under the MIT License.
-
-
-.
+```
 ├── cmd
 │   └── main.go
 ├── config
